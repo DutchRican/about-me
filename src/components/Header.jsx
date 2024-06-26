@@ -1,8 +1,7 @@
-import './header.css';
 
 export default function Header() {
 	return (
-		<div className='header'>
+		<div className='header w-full pt-6 mb-6'>
 			<span >Paul van Woensel - Milwaukee, WI</span>
 		</div>
 	)

@@ -1,8 +1,7 @@
-import './about.css';
 
 export default function About() {
 	return (
-		<div className='about-section'>
+		<div className='w-7/12 pt-4'>
 			<p>
 				Paul van Woensel is a software developer with a passion for building software.
 				With many years of programming experience, including over 10 years in a professional setting, he has worked on a wide variety of projects.
