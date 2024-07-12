@@ -1,7 +1,6 @@
-import { gradientText } from "../lib/constants"
 export default function About() {
 	return (
-		<div className={`w-7/12 pt-4 ${gradientText}`}>
+		<div className="w-7/12 max-w-4xl pt-4 bg-gradient-to-br from-blue-200 to-purple-200 bg-clip-text text-transparent">
 			<p>
 				Paul van Woensel is a software developer with a passion for building software.
 				With many years of programming experience, including over 10 years in a professional setting, he has worked on a wide variety of projects.

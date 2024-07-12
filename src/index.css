@@ -27,11 +27,19 @@
 }
 
 .header span {
-  /* Apply animation to this element */
-  animation: header 3s ease-in-out;
+  font-size: larger;
+  font-weight: bold;
+  animation: header 2.25s ease-in-out;
 }
 
-/* Move it (define the animation) */
+.image {
+  height: auto;
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+  animation: image 2.25s ease;
+}
+
 @keyframes header {
   0% {
     transform: translatey(200%);
@@ -39,5 +47,15 @@
 
   100% {
     transform: translatey(0%);
+  }
+}
+
+@keyframes image {
+  0% {
+    filter: blur(3px);
+  }
+
+  100% {
+    filter: blur();
   }
 }
