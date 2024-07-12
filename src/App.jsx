@@ -1,6 +1,7 @@
 import About from './components/About'
 import Header from './components/Header'
 import LinkSection from './components/LinkSection'
+import { gradientText } from './lib/constants'
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
           { url: 'https://github.com/DutchRican', name: 'GitHub' },
           { url: 'https://gitlab.com/users/DutchRican/projects', name: 'GitLab' }]}
         />
-        <div><h3 className="border-b border-white">Personal projects coming soon</h3></div>
+        <div><h3 className={`border-b border-white ${gradientText}`}>Personal projects coming soon</h3></div>
       </div>
     </main>
   )

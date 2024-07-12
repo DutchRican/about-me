@@ -1,7 +1,7 @@
-
+import { gradientText } from "../lib/constants"
 export default function About() {
 	return (
-		<div className='w-7/12 pt-4'>
+		<div className={`w-7/12 pt-4 ${gradientText}`}>
 			<p>
 				Paul van Woensel is a software developer with a passion for building software.
 				With many years of programming experience, including over 10 years in a professional setting, he has worked on a wide variety of projects.
