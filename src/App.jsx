@@ -19,7 +19,11 @@ function App() {
           { url: 'https://github.com/DutchRican', name: 'GitHub' },
           { url: 'https://gitlab.com/users/DutchRican/projects', name: 'GitLab' }]}
         />
-        <div><h3 className="border-b border-white bg-gradient-to-br from-blue-200 to-purple-200 bg-clip-text text-transparent">Personal projects coming soon</h3></div>
+        <div>
+          <LinkSection title="Personal projects (more coming soon)" links={[
+            { url: 'https://memory-pi-roan.vercel.app', name: 'Memory Gane' },
+          ]} />
+        </div>
       </div>
     </main>
   )
