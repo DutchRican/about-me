@@ -64,7 +64,7 @@
   height: 100%;
   background: conic-gradient(from var(--angle), transparent 70%, rgb(223, 63, 5), rgb(154, 5, 223), rgb(38, 5, 223));
   z-index: -1;
-  padding: 1px;
+  padding: 2px;
   animation: 3s spin linear infinite;
 }
 
