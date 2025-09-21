@@ -19,10 +19,13 @@ function App() {
         <LinkSection title="Social Items" links={[
           { url: 'https://www.linkedin.com/in/paul-van-woensel-vdubs/', name: 'LinkedIn' },
           { url: 'https://github.com/DutchRican', name: 'GitHub' },
-          { url: 'https://gitlab.com/users/DutchRican/projects', name: 'GitLab' }]}
+          { url: 'https://gitlab.com/users/DutchRican/projects', name: 'GitLab' },
+          { url: 'https://www.npmjs.com/settings/dutchrican/packages', name: 'NPM' }]}
         />
         <div>
-          <LinkSection title="Personal projects (more coming soon)" links={[
+          <LinkSection title="Personal projects (most time is just spent professionally)" links={[
+            { url: 'https://github.com/DutchRican/a11y_reports', name: 'A11y Reports (React)' },
+            { url: 'https://github.com/DutchRican/sonarqube_prep', name: 'SonarQube Prep CLI application' },
             { url: 'https://memory-pi-roan.vercel.app', name: 'Memory Game (Vue)' },
           ]} />
         </div>
