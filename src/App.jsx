@@ -25,7 +25,8 @@ function App() {
         <div>
           <LinkSection title="Personal projects (most time is just spent professionally)" links={[
             { url: 'https://github.com/DutchRican/a11y_reports', name: 'A11y Reports (React)' },
-            { url: 'https://github.com/DutchRican/sonarqube_prep', name: 'SonarQube Prep CLI application' },
+            { url: 'https://www.npmjs.com/package/sonarqube_prep', name: 'SonarQube Prep CLI application' },
+            { url: 'https://www.npmjs.com/package/@dutchrican/playwright-quick-start', name: 'Playwright quick start' },
             { url: 'https://memory-pi-roan.vercel.app', name: 'Memory Game (Vue)' },
           ]} />
         </div>
