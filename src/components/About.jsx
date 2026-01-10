@@ -1,19 +1,18 @@
 export default function About() {
 	return (
-		<div className="w-7/12 max-w-4xl pt-4 bg-gradient-to-br from-blue-200 to-purple-200 bg-clip-text text-transparent">
-			<p className="pb-2">
-				Paul van Woensel is a software developer, tech lead, manager, and SDET with a passion for building software.
-				With many years of programming experience, including over 10 years in a professional setting, he has worked on a wide variety of projects.
-				His experience ranges from working on large teams in corporate environments to small teams in startups, across industries such as fintech and healthcare.
-				While his most recent projects have been in the React ecosystem and mainly involve web applications,
-				Paul also enjoys using other languages like Swift, Python, and Dart.
+		<div className="text-white">
+			<p className="text-lg leading-relaxed mb-4">
+				I&apos;m a <span className="text-blue-400 font-semibold">software developer</span>, <span className="text-cyan-400 font-semibold">tech lead</span>,
+				<span className="text-blue-400 font-semibold"> manager</span>, and <span className="text-cyan-400 font-semibold">SDET</span> with a passion for building software.
+				With over 10 years of professional programming experience, I&apos;ve worked on diverse projects across industries like fintech and healthcare.
 			</p>
-			<p className="pb-2">
-				When he is not working, Paul enjoys spending time with his family, 3D printing objects, and reading.
+			<p className="text-lg leading-relaxed mb-4">
+				My expertise spans from large corporate teams to small startup environments. While my recent work focuses on React and web applications,
+				I enjoy exploring other languages including Swift, Python, and Dart.
 			</p>
-			<p>
-				During the day, you can find him pair programming with his colleagues, mentoring junior developers and direct reports,
-				reviewing pull requests, and writing code.
+			<p className="text-lg leading-relaxed mb-4">
+				Outside of work, I enjoy spending time with my family, 3D printing, and reading. During the workday, you&apos;ll find me pair programming,
+				mentoring developers, reviewing code, and building innovative solutions.
 			</p>
 		</div>
 	)
