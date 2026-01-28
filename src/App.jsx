@@ -24,7 +24,7 @@ function App() {
           { url: 'https://www.linkedin.com/in/paul-van-woensel-vdubs/', name: 'LinkedIn' },
           { url: 'https://github.com/DutchRican', name: 'GitHub' },
           { url: 'https://gitlab.com/users/DutchRican/projects', name: 'GitLab' },
-          { url: 'https://www.npmjs.com/settings/dutchrican/packages', name: 'NPM' }]}
+          { url: 'https://www.npmjs.com/search?q=dutchrican', name: 'NPM' }]}
         />
         <LinkSection title="Personal Projects" links={[
           { url: 'https://workout-tracker-black-nu.vercel.app/', name: 'Workout Tracker'},
